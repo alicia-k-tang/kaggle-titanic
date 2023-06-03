@@ -1,6 +1,6 @@
-#Before we create a predictive model, cleaning and visualizing the data is paramount to gaining insight on the dataset.
+#Before we create a predictive model, visualizing the data is paramount to gaining insight on the dataset.
 
-#First, let's load and clean the data.
+#First, let's load the data.
 
 #Setting working directory
 setwd("C:/Users/Alice/Downloads")
