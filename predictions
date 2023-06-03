@@ -1,0 +1,13 @@
+#Now, we will build our predictive model!
+
+#We will create our own column to combine data together.
+titanic.train$IsTrainSet <- TRUE
+titanic.test$IsTrainSet <- FALSE
+titanic.test$Survived <- NA
+
+#We proceed by creating a row bind.
+titanic.full <- rbind(titanic.train, titanic.test)
+
+Using the mode, we must clean and fill in the 2 missing values from Embarked.
+#titanic.full[titanic.full$Embarked=='', "Embarked"] <- 'S'
+table(titanic.full$Embarked)
