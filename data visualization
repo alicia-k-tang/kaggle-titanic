@@ -43,3 +43,5 @@ ggplot(titanic.train, aes(x = Survived, y = Age)) +
   labs(y = "Age",
        x = "Survived",
        title = "Titanic Survival Rates by Age")
+
+#With this information, we're ready to create our predictive model!
