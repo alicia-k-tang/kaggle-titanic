@@ -53,4 +53,4 @@ output.df$Survived <- Survived
 #Lastly we must use the write.csv function to save and submit to Kaggle for the competition.
 write.csv(output.df, file= "kaggle_titanic.csv", row.names = FALSE)
 
-#After submitting this on Kaggle, this model received a 0.772. Limitations and ways to improve the model are listed in the "Titanic Kaggle Competition" pdf of this repo. 
+#After submitting this on Kaggle, this model received a 0.772. Limitations and ways to improve the model are listed in the README file or the "Titanic Kaggle Competition" pdf of this repo. 
